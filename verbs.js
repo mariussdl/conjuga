@@ -366,4 +366,445 @@ const verbsData = [
             "futuro_simple": { "yo": "me iré", "tú": "te irás", "él/ella/usted": "se irá", "nosotros": "nos iremos", "vosotros": "os iréis", "ellos/ellas/ustedes": "se irán" }
         }
     }
+,
+    {
+        "infinitive": "poner",
+        "translation": "mettre",
+        "conjugations": {
+            "presente": { "yo": "pongo", "tú": "pones", "él/ella/usted": "pone", "nosotros": "ponemos", "vosotros": "ponéis", "ellos/ellas/ustedes": "ponen" },
+            "preterito_perfecto": { "yo": "he puesto", "tú": "has puesto", "él/ella/usted": "ha puesto", "nosotros": "hemos puesto", "vosotros": "habéis puesto", "ellos/ellas/ustedes": "han puesto" },
+            "preterito_imperfecto": { "yo": "ponía", "tú": "ponías", "él/ella/usted": "ponía", "nosotros": "poníamos", "vosotros": "poníais", "ellos/ellas/ustedes": "ponían" },
+            "preterito_indefinido": { "yo": "puse", "tú": "pusiste", "él/ella/usted": "puso", "nosotros": "pusimos", "vosotros": "pusisteis", "ellos/ellas/ustedes": "pusieron" },
+            "futuro_simple": { "yo": "pondré", "tú": "pondrás", "él/ella/usted": "pondrá", "nosotros": "pondremos", "vosotros": "pondréis", "ellos/ellas/ustedes": "pondrán" }
+        }
+    },
+    {
+        "infinitive": "salir",
+        "translation": "sortir",
+        "conjugations": {
+            "presente": { "yo": "salgo", "tú": "sales", "él/ella/usted": "sale", "nosotros": "salimos", "vosotros": "salís", "ellos/ellas/ustedes": "salen" },
+            "preterito_perfecto": { "yo": "he salido", "tú": "has salido", "él/ella/usted": "ha salido", "nosotros": "hemos salido", "vosotros": "habéis salido", "ellos/ellas/ustedes": "han salido" },
+            "preterito_imperfecto": { "yo": "salía", "tú": "salías", "él/ella/usted": "salía", "nosotros": "salíamos", "vosotros": "salíais", "ellos/ellas/ustedes": "salían" },
+            "preterito_indefinido": { "yo": "salí", "tú": "saliste", "él/ella/usted": "salió", "nosotros": "salimos", "vosotros": "salisteis", "ellos/ellas/ustedes": "salieron" },
+            "futuro_simple": { "yo": "saldré", "tú": "saldrás", "él/ella/usted": "saldrá", "nosotros": "saldremos", "vosotros": "saldréis", "ellos/ellas/ustedes": "saldrán" }
+        }
+    },
+    {
+        "infinitive": "venir",
+        "translation": "venir",
+        "conjugations": {
+            "presente": { "yo": "vengo", "tú": "vienes", "él/ella/usted": "viene", "nosotros": "venimos", "vosotros": "venís", "ellos/ellas/ustedes": "vienen" },
+            "preterito_perfecto": { "yo": "he venido", "tú": "has venido", "él/ella/usted": "ha venido", "nosotros": "hemos venido", "vosotros": "habéis venido", "ellos/ellas/ustedes": "han venido" },
+            "preterito_imperfecto": { "yo": "venía", "tú": "venías", "él/ella/usted": "venía", "nosotros": "veníamos", "vosotros": "veníais", "ellos/ellas/ustedes": "venían" },
+            "preterito_indefinido": { "yo": "vine", "tú": "viniste", "él/ella/usted": "vino", "nosotros": "vinimos", "vosotros": "vinisteis", "ellos/ellas/ustedes": "vinieron" },
+            "futuro_simple": { "yo": "vendré", "tú": "vendrás", "él/ella/usted": "vendrá", "nosotros": "vendremos", "vosotros": "vendréis", "ellos/ellas/ustedes": "vendrán" }
+        }
+    },
+    {
+        "infinitive": "decir",
+        "translation": "dire",
+        "conjugations": {
+            "presente": { "yo": "digo", "tú": "dices", "él/ella/usted": "dice", "nosotros": "decimos", "vosotros": "decís", "ellos/ellas/ustedes": "dicen" },
+            "preterito_perfecto": { "yo": "he dicho", "tú": "has dicho", "él/ella/usted": "ha dicho", "nosotros": "hemos dicho", "vosotros": "habéis dicho", "ellos/ellas/ustedes": "han dicho" },
+            "preterito_imperfecto": { "yo": "decía", "tú": "decías", "él/ella/usted": "decía", "nosotros": "decíamos", "vosotros": "decíais", "ellos/ellas/ustedes": "decían" },
+            "preterito_indefinido": { "yo": "dije", "tú": "dijiste", "él/ella/usted": "dijo", "nosotros": "dijimos", "vosotros": "dijisteis", "ellos/ellas/ustedes": "dijeron" },
+            "futuro_simple": { "yo": "diré", "tú": "dirás", "él/ella/usted": "dirá", "nosotros": "diremos", "vosotros": "diréis", "ellos/ellas/ustedes": "dirán" }
+        }
+    },
+    {
+        "infinitive": "poder",
+        "translation": "pouvoir",
+        "conjugations": {
+            "presente": { "yo": "puedo", "tú": "puedes", "él/ella/usted": "puede", "nosotros": "podemos", "vosotros": "podéis", "ellos/ellas/ustedes": "pueden" },
+            "preterito_perfecto": { "yo": "he podido", "tú": "has podido", "él/ella/usted": "ha podido", "nosotros": "hemos podido", "vosotros": "habéis podido", "ellos/ellas/ustedes": "han podido" },
+            "preterito_imperfecto": { "yo": "podía", "tú": "podías", "él/ella/usted": "podía", "nosotros": "podíamos", "vosotros": "podíais", "ellos/ellas/ustedes": "podían" },
+            "preterito_indefinido": { "yo": "pude", "tú": "pudiste", "él/ella/usted": "pudo", "nosotros": "pudimos", "vosotros": "pudisteis", "ellos/ellas/ustedes": "pudieron" },
+            "futuro_simple": { "yo": "podré", "tú": "podrás", "él/ella/usted": "podrá", "nosotros": "podremos", "vosotros": "podréis", "ellos/ellas/ustedes": "podrán" }
+        }
+    },
+    {
+        "infinitive": "dar",
+        "translation": "donner",
+        "conjugations": {
+            "presente": { "yo": "doy", "tú": "das", "él/ella/usted": "da", "nosotros": "damos", "vosotros": "dais", "ellos/ellas/ustedes": "dan" },
+            "preterito_perfecto": { "yo": "he dado", "tú": "has dado", "él/ella/usted": "ha dado", "nosotros": "hemos dado", "vosotros": "habéis dado", "ellos/ellas/ustedes": "han dado" },
+            "preterito_imperfecto": { "yo": "daba", "tú": "dabas", "él/ella/usted": "daba", "nosotros": "dábamos", "vosotros": "dabais", "ellos/ellas/ustedes": "daban" },
+            "preterito_indefinido": { "yo": "di", "tú": "diste", "él/ella/usted": "dio", "nosotros": "dimos", "vosotros": "disteis", "ellos/ellas/ustedes": "dieron" },
+            "futuro_simple": { "yo": "daré", "tú": "darás", "él/ella/usted": "dará", "nosotros": "daremos", "vosotros": "daréis", "ellos/ellas/ustedes": "darán" }
+        }
+    },
+    {
+        "infinitive": "recibir",
+        "translation": "recevoir",
+        "conjugations": {
+            "presente": { "yo": "recibo", "tú": "recibes", "él/ella/usted": "recibe", "nosotros": "recibimos", "vosotros": "recibís", "ellos/ellas/ustedes": "reciben" },
+            "preterito_perfecto": { "yo": "he recibido", "tú": "has recibido", "él/ella/usted": "ha recibido", "nosotros": "hemos recibido", "vosotros": "habéis recibido", "ellos/ellas/ustedes": "han recibido" },
+            "preterito_imperfecto": { "yo": "recibía", "tú": "recibías", "él/ella/usted": "recibía", "nosotros": "recibíamos", "vosotros": "recibíais", "ellos/ellas/ustedes": "recibían" },
+            "preterito_indefinido": { "yo": "recibí", "tú": "recibiste", "él/ella/usted": "recibió", "nosotros": "recibimos", "vosotros": "recibisteis", "ellos/ellas/ustedes": "recibieron" },
+            "futuro_simple": { "yo": "recibiré", "tú": "recibirás", "él/ella/usted": "recibirá", "nosotros": "recibiremos", "vosotros": "recibiréis", "ellos/ellas/ustedes": "recibirán" }
+        }
+    },
+    {
+        "infinitive": "ver",
+        "translation": "voir",
+        "conjugations": {
+            "presente": { "yo": "veo", "tú": "ves", "él/ella/usted": "ve", "nosotros": "vemos", "vosotros": "veis", "ellos/ellas/ustedes": "ven" },
+            "preterito_perfecto": { "yo": "he visto", "tú": "has visto", "él/ella/usted": "ha visto", "nosotros": "hemos visto", "vosotros": "habéis visto", "ellos/ellas/ustedes": "han visto" },
+            "preterito_imperfecto": { "yo": "veía", "tú": "veías", "él/ella/usted": "veía", "nosotros": "veíamos", "vosotros": "veíais", "ellos/ellas/ustedes": "veían" },
+            "preterito_indefinido": { "yo": "vi", "tú": "viste", "él/ella/usted": "vio", "nosotros": "vimos", "vosotros": "visteis", "ellos/ellas/ustedes": "vieron" },
+            "futuro_simple": { "yo": "veré", "tú": "verás", "él/ella/usted": "verá", "nosotros": "veremos", "vosotros": "veréis", "ellos/ellas/ustedes": "verán" }
+        }
+    },
+    {
+        "infinitive": "mirar",
+        "translation": "regarder",
+        "conjugations": {
+            "presente": { "yo": "miro", "tú": "miras", "él/ella/usted": "mira", "nosotros": "miramos", "vosotros": "miráis", "ellos/ellas/ustedes": "miran" },
+            "preterito_perfecto": { "yo": "he mirado", "tú": "has mirado", "él/ella/usted": "ha mirado", "nosotros": "hemos mirado", "vosotros": "habéis mirado", "ellos/ellas/ustedes": "han mirado" },
+            "preterito_imperfecto": { "yo": "miraba", "tú": "mirabas", "él/ella/usted": "miraba", "nosotros": "mirábamos", "vosotros": "mirabais", "ellos/ellas/ustedes": "miraban" },
+            "preterito_indefinido": { "yo": "miré", "tú": "miraste", "él/ella/usted": "miró", "nosotros": "miramos", "vosotros": "mirasteis", "ellos/ellas/ustedes": "miraron" },
+            "futuro_simple": { "yo": "miraré", "tú": "mirarás", "él/ella/usted": "mirará", "nosotros": "miraremos", "vosotros": "miraréis", "ellos/ellas/ustedes": "mirarán" }
+        }
+    },
+    {
+        "infinitive": "volver",
+        "translation": "revenir",
+        "conjugations": {
+            "presente": { "yo": "vuelvo", "tú": "vuelves", "él/ella/usted": "vuelve", "nosotros": "volvemos", "vosotros": "volvéis", "ellos/ellas/ustedes": "vuelven" },
+            "preterito_perfecto": { "yo": "he vuelto", "tú": "has vuelto", "él/ella/usted": "ha vuelto", "nosotros": "hemos vuelto", "vosotros": "habéis vuelto", "ellos/ellas/ustedes": "han vuelto" },
+            "preterito_imperfecto": { "yo": "volvía", "tú": "volvías", "él/ella/usted": "volvía", "nosotros": "volvíamos", "vosotros": "volvíais", "ellos/ellas/ustedes": "volvían" },
+            "preterito_indefinido": { "yo": "volví", "tú": "volviste", "él/ella/usted": "volvió", "nosotros": "volvimos", "vosotros": "volvisteis", "ellos/ellas/ustedes": "volvieron" },
+            "futuro_simple": { "yo": "volveré", "tú": "volverás", "él/ella/usted": "volverá", "nosotros": "volveremos", "vosotros": "volveréis", "ellos/ellas/ustedes": "volverán" }
+        }
+    },
+    {
+        "infinitive": "descansar",
+        "translation": "se reposer",
+        "conjugations": {
+            "presente": { "yo": "descanso", "tú": "descansas", "él/ella/usted": "descansa", "nosotros": "descansamos", "vosotros": "descansáis", "ellos/ellas/ustedes": "descansan" },
+            "preterito_perfecto": { "yo": "he descansado", "tú": "has descansado", "él/ella/usted": "ha descansado", "nosotros": "hemos descansado", "vosotros": "habéis descansado", "ellos/ellas/ustedes": "han descansado" },
+            "preterito_imperfecto": { "yo": "descansaba", "tú": "descansabas", "él/ella/usted": "descansaba", "nosotros": "descansábamos", "vosotros": "descansabais", "ellos/ellas/ustedes": "descansaban" },
+            "preterito_indefinido": { "yo": "descansé", "tú": "descansaste", "él/ella/usted": "descansó", "nosotros": "descansamos", "vosotros": "descansasteis", "ellos/ellas/ustedes": "descansaron" },
+            "futuro_simple": { "yo": "descansaré", "tú": "descansarás", "él/ella/usted": "descansará", "nosotros": "descansaremos", "vosotros": "descansaréis", "ellos/ellas/ustedes": "descansarán" }
+        }
+    },
+    {
+        "infinitive": "comprar",
+        "translation": "acheter",
+        "conjugations": {
+            "presente": { "yo": "compro", "tú": "compras", "él/ella/usted": "compra", "nosotros": "compramos", "vosotros": "compráis", "ellos/ellas/ustedes": "compran" },
+            "preterito_perfecto": { "yo": "he comprado", "tú": "has comprado", "él/ella/usted": "ha comprado", "nosotros": "hemos comprado", "vosotros": "habéis comprado", "ellos/ellas/ustedes": "han comprado" },
+            "preterito_imperfecto": { "yo": "compraba", "tú": "comprabas", "él/ella/usted": "compraba", "nosotros": "comprábamos", "vosotros": "comprabais", "ellos/ellas/ustedes": "compraban" },
+            "preterito_indefinido": { "yo": "compré", "tú": "compraste", "él/ella/usted": "compró", "nosotros": "compramos", "vosotros": "comprasteis", "ellos/ellas/ustedes": "compraron" },
+            "futuro_simple": { "yo": "compraré", "tú": "comprarás", "él/ella/usted": "comprará", "nosotros": "compraremos", "vosotros": "compraréis", "ellos/ellas/ustedes": "comprarán" }
+        }
+    },
+    {
+        "infinitive": "vender",
+        "translation": "vendre",
+        "conjugations": {
+            "presente": { "yo": "vendo", "tú": "vendes", "él/ella/usted": "vende", "nosotros": "vendemos", "vosotros": "vendéis", "ellos/ellas/ustedes": "venden" },
+            "preterito_perfecto": { "yo": "he vendido", "tú": "has vendido", "él/ella/usted": "ha vendido", "nosotros": "hemos vendido", "vosotros": "habéis vendido", "ellos/ellas/ustedes": "han vendido" },
+            "preterito_imperfecto": { "yo": "vendía", "tú": "vendías", "él/ella/usted": "vendía", "nosotros": "vendíamos", "vosotros": "vendíais", "ellos/ellas/ustedes": "vendían" },
+            "preterito_indefinido": { "yo": "vendí", "tú": "vendiste", "él/ella/usted": "vendió", "nosotros": "vendimos", "vosotros": "vendisteis", "ellos/ellas/ustedes": "vendieron" },
+            "futuro_simple": { "yo": "venderé", "tú": "venderás", "él/ella/usted": "venderá", "nosotros": "venderemos", "vosotros": "venderéis", "ellos/ellas/ustedes": "venderán" }
+        }
+    },
+    {
+        "infinitive": "habitar",
+        "translation": "habiter",
+        "conjugations": {
+            "presente": { "yo": "habito", "tú": "habitas", "él/ella/usted": "habita", "nosotros": "habitamos", "vosotros": "habitáis", "ellos/ellas/ustedes": "habitan" },
+            "preterito_perfecto": { "yo": "he habitado", "tú": "has habitado", "él/ella/usted": "ha habitado", "nosotros": "hemos habitado", "vosotros": "habéis habitado", "ellos/ellas/ustedes": "han habitado" },
+            "preterito_imperfecto": { "yo": "habitaba", "tú": "habitabas", "él/ella/usted": "habitaba", "nosotros": "habitábamos", "vosotros": "habitabais", "ellos/ellas/ustedes": "habitaban" },
+            "preterito_indefinido": { "yo": "habité", "tú": "habitaste", "él/ella/usted": "habitó", "nosotros": "habitamos", "vosotros": "habitasteis", "ellos/ellas/ustedes": "habitaron" },
+            "futuro_simple": { "yo": "habitaré", "tú": "habitarás", "él/ella/usted": "habitará", "nosotros": "habitaremos", "vosotros": "habitaréis", "ellos/ellas/ustedes": "habitarán" }
+        }
+    },
+    {
+        "infinitive": "gustar",
+        "translation": "aimer / plaire",
+        "conjugations": {
+            "presente": { "yo": "gusto", "tú": "gustas", "él/ella/usted": "gusta", "nosotros": "gustamos", "vosotros": "gustáis", "ellos/ellas/ustedes": "gustan" },
+            "preterito_perfecto": { "yo": "he gustado", "tú": "has gustado", "él/ella/usted": "ha gustado", "nosotros": "hemos gustado", "vosotros": "habéis gustado", "ellos/ellas/ustedes": "han gustado" },
+            "preterito_imperfecto": { "yo": "gustaba", "tú": "gustabas", "él/ella/usted": "gustaba", "nosotros": "gustábamos", "vosotros": "gustabais", "ellos/ellas/ustedes": "gustaban" },
+            "preterito_indefinido": { "yo": "gusté", "tú": "gustaste", "él/ella/usted": "gustó", "nosotros": "gustamos", "vosotros": "gustasteis", "ellos/ellas/ustedes": "gustaron" },
+            "futuro_simple": { "yo": "gustaré", "tú": "gustarás", "él/ella/usted": "gustará", "nosotros": "gustaremos", "vosotros": "gustaréis", "ellos/ellas/ustedes": "gustarán" }
+        }
+    },
+    {
+        "infinitive": "cambiar",
+        "translation": "changer",
+        "conjugations": {
+            "presente": { "yo": "cambio", "tú": "cambias", "él/ella/usted": "cambia", "nosotros": "cambiamos", "vosotros": "cambiáis", "ellos/ellas/ustedes": "cambian" },
+            "preterito_perfecto": { "yo": "he cambiado", "tú": "has cambiado", "él/ella/usted": "ha cambiado", "nosotros": "hemos cambiado", "vosotros": "habéis cambiado", "ellos/ellas/ustedes": "han cambiado" },
+            "preterito_imperfecto": { "yo": "cambiaba", "tú": "cambiabas", "él/ella/usted": "cambiaba", "nosotros": "cambiábamos", "vosotros": "cambiabais", "ellos/ellas/ustedes": "cambiaban" },
+            "preterito_indefinido": { "yo": "cambié", "tú": "cambiaste", "él/ella/usted": "cambió", "nosotros": "cambiamos", "vosotros": "cambiasteis", "ellos/ellas/ustedes": "cambiaron" },
+            "futuro_simple": { "yo": "cambiaré", "tú": "cambiarás", "él/ella/usted": "cambiará", "nosotros": "cambiaremos", "vosotros": "cambiaréis", "ellos/ellas/ustedes": "cambiarán" }
+        }
+    },
+    {
+        "infinitive": "beber",
+        "translation": "boire",
+        "conjugations": {
+            "presente": { "yo": "bebo", "tú": "bebes", "él/ella/usted": "bebe", "nosotros": "bebemos", "vosotros": "bebéis", "ellos/ellas/ustedes": "beben" },
+            "preterito_perfecto": { "yo": "he bebido", "tú": "has bebido", "él/ella/usted": "ha bebido", "nosotros": "hemos bebido", "vosotros": "habéis bebido", "ellos/ellas/ustedes": "han bebido" },
+            "preterito_imperfecto": { "yo": "bebía", "tú": "bebías", "él/ella/usted": "bebía", "nosotros": "bebíamos", "vosotros": "bebíais", "ellos/ellas/ustedes": "bebían" },
+            "preterito_indefinido": { "yo": "bebí", "tú": "bebiste", "él/ella/usted": "bebió", "nosotros": "bebimos", "vosotros": "bebisteis", "ellos/ellas/ustedes": "bebieron" },
+            "futuro_simple": { "yo": "beberé", "tú": "beberás", "él/ella/usted": "beberá", "nosotros": "beberemos", "vosotros": "beberéis", "ellos/ellas/ustedes": "beberán" }
+        }
+    },
+    {
+        "infinitive": "correr",
+        "translation": "courir",
+        "conjugations": {
+            "presente": { "yo": "corro", "tú": "corres", "él/ella/usted": "corre", "nosotros": "corremos", "vosotros": "corréis", "ellos/ellas/ustedes": "corren" },
+            "preterito_perfecto": { "yo": "he corrido", "tú": "has corrido", "él/ella/usted": "ha corrido", "nosotros": "hemos corrido", "vosotros": "habéis corrido", "ellos/ellas/ustedes": "han corrido" },
+            "preterito_imperfecto": { "yo": "corría", "tú": "corrías", "él/ella/usted": "corría", "nosotros": "corríamos", "vosotros": "corríais", "ellos/ellas/ustedes": "corrían" },
+            "preterito_indefinido": { "yo": "corrí", "tú": "corriste", "él/ella/usted": "corrió", "nosotros": "corrimos", "vosotros": "corristeis", "ellos/ellas/ustedes": "corrieron" },
+            "futuro_simple": { "yo": "correré", "tú": "correrás", "él/ella/usted": "correrá", "nosotros": "correremos", "vosotros": "correréis", "ellos/ellas/ustedes": "correrán" }
+        }
+    },
+    {
+        "infinitive": "romper",
+        "translation": "casser",
+        "conjugations": {
+            "presente": { "yo": "rompo", "tú": "rompes", "él/ella/usted": "rompe", "nosotros": "rompemos", "vosotros": "rompéis", "ellos/ellas/ustedes": "rompen" },
+            "preterito_perfecto": { "yo": "he roto", "tú": "has roto", "él/ella/usted": "ha roto", "nosotros": "hemos roto", "vosotros": "habéis roto", "ellos/ellas/ustedes": "han roto" },
+            "preterito_imperfecto": { "yo": "rompía", "tú": "rompías", "él/ella/usted": "rompía", "nosotros": "rompíamos", "vosotros": "rompíais", "ellos/ellas/ustedes": "rompían" },
+            "preterito_indefinido": { "yo": "rompí", "tú": "rompiste", "él/ella/usted": "rompió", "nosotros": "rompimos", "vosotros": "rompisteis", "ellos/ellas/ustedes": "rompieron" },
+            "futuro_simple": { "yo": "romperé", "tú": "romperás", "él/ella/usted": "romperá", "nosotros": "romperemos", "vosotros": "romperéis", "ellos/ellas/ustedes": "romperán" }
+        }
+    },
+    {
+        "infinitive": "comprender",
+        "translation": "comprendre",
+        "conjugations": {
+            "presente": { "yo": "comprendo", "tú": "comprendes", "él/ella/usted": "comprende", "nosotros": "comprendemos", "vosotros": "comprendéis", "ellos/ellas/ustedes": "comprenden" },
+            "preterito_perfecto": { "yo": "he comprendido", "tú": "has comprendido", "él/ella/usted": "ha comprendido", "nosotros": "hemos comprendido", "vosotros": "habéis comprendido", "ellos/ellas/ustedes": "han comprendido" },
+            "preterito_imperfecto": { "yo": "comprendía", "tú": "comprendías", "él/ella/usted": "comprendía", "nosotros": "comprendíamos", "vosotros": "comprendíais", "ellos/ellas/ustedes": "comprendían" },
+            "preterito_indefinido": { "yo": "comprendí", "tú": "comprendiste", "él/ella/usted": "comprendió", "nosotros": "comprendimos", "vosotros": "comprendisteis", "ellos/ellas/ustedes": "comprendieron" },
+            "futuro_simple": { "yo": "comprenderé", "tú": "comprenderás", "él/ella/usted": "comprenderá", "nosotros": "comprenderemos", "vosotros": "comprenderéis", "ellos/ellas/ustedes": "comprenderán" }
+        }
+    },
+    {
+        "infinitive": "cubrir",
+        "translation": "couvrir",
+        "conjugations": {
+            "presente": { "yo": "cubro", "tú": "cubres", "él/ella/usted": "cubre", "nosotros": "cubrimos", "vosotros": "cubrís", "ellos/ellas/ustedes": "cubren" },
+            "preterito_perfecto": { "yo": "he cubierto", "tú": "has cubierto", "él/ella/usted": "ha cubierto", "nosotros": "hemos cubierto", "vosotros": "habéis cubierto", "ellos/ellas/ustedes": "han cubierto" },
+            "preterito_imperfecto": { "yo": "cubría", "tú": "cubrías", "él/ella/usted": "cubría", "nosotros": "cubríamos", "vosotros": "cubríais", "ellos/ellas/ustedes": "cubrían" },
+            "preterito_indefinido": { "yo": "cubrí", "tú": "cubriste", "él/ella/usted": "cubrió", "nosotros": "cubrimos", "vosotros": "cubristeis", "ellos/ellas/ustedes": "cubrieron" },
+            "futuro_simple": { "yo": "cubriré", "tú": "cubrirás", "él/ella/usted": "cubrirá", "nosotros": "cubriremos", "vosotros": "cubriréis", "ellos/ellas/ustedes": "cubrirán" }
+        }
+    },
+    {
+        "infinitive": "servir",
+        "translation": "servir",
+        "conjugations": {
+            "presente": { "yo": "sirvo", "tú": "sirves", "él/ella/usted": "sirve", "nosotros": "servimos", "vosotros": "servís", "ellos/ellas/ustedes": "sirven" },
+            "preterito_perfecto": { "yo": "he servido", "tú": "has servido", "él/ella/usted": "ha servido", "nosotros": "hemos servido", "vosotros": "habéis servido", "ellos/ellas/ustedes": "han servido" },
+            "preterito_imperfecto": { "yo": "servía", "tú": "servías", "él/ella/usted": "servía", "nosotros": "servíamos", "vosotros": "servíais", "ellos/ellas/ustedes": "servían" },
+            "preterito_indefinido": { "yo": "serví", "tú": "serviste", "él/ella/usted": "sirvió", "nosotros": "servimos", "vosotros": "servisteis", "ellos/ellas/ustedes": "sirvieron" },
+            "futuro_simple": { "yo": "serviré", "tú": "servirás", "él/ella/usted": "servirá", "nosotros": "serviremos", "vosotros": "serviréis", "ellos/ellas/ustedes": "servirán" }
+        }
+    },
+    {
+        "infinitive": "permitir",
+        "translation": "permettre",
+        "conjugations": {
+            "presente": { "yo": "permito", "tú": "permites", "él/ella/usted": "permite", "nosotros": "permitimos", "vosotros": "permitís", "ellos/ellas/ustedes": "permiten" },
+            "preterito_perfecto": { "yo": "he permitido", "tú": "has permitido", "él/ella/usted": "ha permitido", "nosotros": "hemos permitido", "vosotros": "habéis permitido", "ellos/ellas/ustedes": "han permitido" },
+            "preterito_imperfecto": { "yo": "permitía", "tú": "permitías", "él/ella/usted": "permitía", "nosotros": "permitíamos", "vosotros": "permitíais", "ellos/ellas/ustedes": "permitían" },
+            "preterito_indefinido": { "yo": "permití", "tú": "permitiste", "él/ella/usted": "permitió", "nosotros": "permitimos", "vosotros": "permitisteis", "ellos/ellas/ustedes": "permitieron" },
+            "futuro_simple": { "yo": "permitiré", "tú": "permitirás", "él/ella/usted": "permitirá", "nosotros": "permitiremos", "vosotros": "permitiréis", "ellos/ellas/ustedes": "permitirán" }
+        }
+    },
+    {
+        "infinitive": "escuchar",
+        "translation": "écouter",
+        "conjugations": {
+            "presente": { "yo": "escucho", "tú": "escuchas", "él/ella/usted": "escucha", "nosotros": "escuchamos", "vosotros": "escucháis", "ellos/ellas/ustedes": "escuchan" },
+            "preterito_perfecto": { "yo": "he escuchado", "tú": "has escuchado", "él/ella/usted": "ha escuchado", "nosotros": "hemos escuchado", "vosotros": "habéis escuchado", "ellos/ellas/ustedes": "han escuchado" },
+            "preterito_imperfecto": { "yo": "escuchaba", "tú": "escuchabas", "él/ella/usted": "escuchaba", "nosotros": "escuchábamos", "vosotros": "escuchabais", "ellos/ellas/ustedes": "escuchaban" },
+            "preterito_indefinido": { "yo": "escuché", "tú": "escuchaste", "él/ella/usted": "escuchó", "nosotros": "escuchamos", "vosotros": "escuchasteis", "ellos/ellas/ustedes": "escucharon" },
+            "futuro_simple": { "yo": "escucharé", "tú": "escucharás", "él/ella/usted": "escuchará", "nosotros": "escucharemos", "vosotros": "escucharéis", "ellos/ellas/ustedes": "escucharán" }
+        }
+    },
+    {
+        "infinitive": "llamar",
+        "translation": "appeler",
+        "conjugations": {
+            "presente": { "yo": "llamo", "tú": "llamas", "él/ella/usted": "llama", "nosotros": "llamamos", "vosotros": "llamáis", "ellos/ellas/ustedes": "llaman" },
+            "preterito_perfecto": { "yo": "he llamado", "tú": "has llamado", "él/ella/usted": "ha llamado", "nosotros": "hemos llamado", "vosotros": "habéis llamado", "ellos/ellas/ustedes": "han llamado" },
+            "preterito_imperfecto": { "yo": "llamaba", "tú": "llamabas", "él/ella/usted": "llamaba", "nosotros": "llamábamos", "vosotros": "llamabais", "ellos/ellas/ustedes": "llamaban" },
+            "preterito_indefinido": { "yo": "llamé", "tú": "llamaste", "él/ella/usted": "llamó", "nosotros": "llamamos", "vosotros": "llamasteis", "ellos/ellas/ustedes": "llamaron" },
+            "futuro_simple": { "yo": "llamaré", "tú": "llamarás", "él/ella/usted": "llamará", "nosotros": "llamaremos", "vosotros": "llamaréis", "ellos/ellas/ustedes": "llamarán" }
+        }
+    },
+    {
+        "infinitive": "bailar",
+        "translation": "danser",
+        "conjugations": {
+            "presente": { "yo": "bailo", "tú": "bailas", "él/ella/usted": "baila", "nosotros": "bailamos", "vosotros": "bailáis", "ellos/ellas/ustedes": "bailan" },
+            "preterito_perfecto": { "yo": "he bailado", "tú": "has bailado", "él/ella/usted": "ha bailado", "nosotros": "hemos bailado", "vosotros": "habéis bailado", "ellos/ellas/ustedes": "han bailado" },
+            "preterito_imperfecto": { "yo": "bailaba", "tú": "bailabas", "él/ella/usted": "bailaba", "nosotros": "bailábamos", "vosotros": "bailabais", "ellos/ellas/ustedes": "bailaban" },
+            "preterito_indefinido": { "yo": "bailé", "tú": "bailaste", "él/ella/usted": "bailó", "nosotros": "bailamos", "vosotros": "bailasteis", "ellos/ellas/ustedes": "bailaron" },
+            "futuro_simple": { "yo": "bailaré", "tú": "bailarás", "él/ella/usted": "bailará", "nosotros": "bailaremos", "vosotros": "bailaréis", "ellos/ellas/ustedes": "bailarán" }
+        }
+    },
+    {
+        "infinitive": "cantar",
+        "translation": "chanter",
+        "conjugations": {
+            "presente": { "yo": "canto", "tú": "cantas", "él/ella/usted": "canta", "nosotros": "cantamos", "vosotros": "cantáis", "ellos/ellas/ustedes": "cantan" },
+            "preterito_perfecto": { "yo": "he cantado", "tú": "has cantado", "él/ella/usted": "ha cantado", "nosotros": "hemos cantado", "vosotros": "habéis cantado", "ellos/ellas/ustedes": "han cantado" },
+            "preterito_imperfecto": { "yo": "cantaba", "tú": "cantabas", "él/ella/usted": "cantaba", "nosotros": "cantábamos", "vosotros": "cantabais", "ellos/ellas/ustedes": "cantaban" },
+            "preterito_indefinido": { "yo": "canté", "tú": "cantaste", "él/ella/usted": "cantó", "nosotros": "cantamos", "vosotros": "cantasteis", "ellos/ellas/ustedes": "cantaron" },
+            "futuro_simple": { "yo": "cantaré", "tú": "cantarás", "él/ella/usted": "cantará", "nosotros": "cantaremos", "vosotros": "cantaréis", "ellos/ellas/ustedes": "cantarán" }
+        }
+    },
+    {
+        "infinitive": "caminar",
+        "translation": "marcher",
+        "conjugations": {
+            "presente": { "yo": "camino", "tú": "caminas", "él/ella/usted": "camina", "nosotros": "caminamos", "vosotros": "camináis", "ellos/ellas/ustedes": "caminan" },
+            "preterito_perfecto": { "yo": "he caminado", "tú": "has caminado", "él/ella/usted": "ha caminado", "nosotros": "hemos caminado", "vosotros": "habéis caminado", "ellos/ellas/ustedes": "han caminado" },
+            "preterito_imperfecto": { "yo": "caminaba", "tú": "caminabas", "él/ella/usted": "caminaba", "nosotros": "caminábamos", "vosotros": "caminabais", "ellos/ellas/ustedes": "caminaban" },
+            "preterito_indefinido": { "yo": "caminé", "tú": "caminaste", "él/ella/usted": "caminó", "nosotros": "caminamos", "vosotros": "caminasteis", "ellos/ellas/ustedes": "caminaron" },
+            "futuro_simple": { "yo": "caminaré", "tú": "caminarás", "él/ella/usted": "caminará", "nosotros": "caminaremos", "vosotros": "caminaréis", "ellos/ellas/ustedes": "caminarán" }
+        }
+    },
+    {
+        "infinitive": "estudiar",
+        "translation": "étudier",
+        "conjugations": {
+            "presente": { "yo": "estudio", "tú": "estudias", "él/ella/usted": "estudia", "nosotros": "estudiamos", "vosotros": "estudiáis", "ellos/ellas/ustedes": "estudian" },
+            "preterito_perfecto": { "yo": "he estudiado", "tú": "has estudiado", "él/ella/usted": "ha estudiado", "nosotros": "hemos estudiado", "vosotros": "habéis estudiado", "ellos/ellas/ustedes": "han estudiado" },
+            "preterito_imperfecto": { "yo": "estudiaba", "tú": "estudiabas", "él/ella/usted": "estudiaba", "nosotros": "estudiábamos", "vosotros": "estudiabais", "ellos/ellas/ustedes": "estudiaban" },
+            "preterito_indefinido": { "yo": "estudié", "tú": "estudiaste", "él/ella/usted": "estudió", "nosotros": "estudiamos", "vosotros": "estudiasteis", "ellos/ellas/ustedes": "estudiaron" },
+            "futuro_simple": { "yo": "estudiaré", "tú": "estudiarás", "él/ella/usted": "estudiará", "nosotros": "estudiaremos", "vosotros": "estudiaréis", "ellos/ellas/ustedes": "estudiarán" }
+        }
+    },
+    {
+        "infinitive": "quitar",
+        "translation": "enlever",
+        "conjugations": {
+            "presente": { "yo": "quito", "tú": "quitas", "él/ella/usted": "quita", "nosotros": "quitamos", "vosotros": "quitáis", "ellos/ellas/ustedes": "quitan" },
+            "preterito_perfecto": { "yo": "he quitado", "tú": "has quitado", "él/ella/usted": "ha quitado", "nosotros": "hemos quitado", "vosotros": "habéis quitado", "ellos/ellas/ustedes": "han quitado" },
+            "preterito_imperfecto": { "yo": "quitaba", "tú": "quitabas", "él/ella/usted": "quitaba", "nosotros": "quitábamos", "vosotros": "quitabais", "ellos/ellas/ustedes": "quitaban" },
+            "preterito_indefinido": { "yo": "quité", "tú": "quitaste", "él/ella/usted": "quitó", "nosotros": "quitamos", "vosotros": "quitasteis", "ellos/ellas/ustedes": "quitaron" },
+            "futuro_simple": { "yo": "quitaré", "tú": "quitarás", "él/ella/usted": "quitará", "nosotros": "quitaremos", "vosotros": "quitaréis", "ellos/ellas/ustedes": "quitarán" }
+        }
+    },
+    {
+        "infinitive": "enseñar",
+        "translation": "enseigner",
+        "conjugations": {
+            "presente": { "yo": "enseño", "tú": "enseñas", "él/ella/usted": "enseña", "nosotros": "enseñamos", "vosotros": "enseñáis", "ellos/ellas/ustedes": "enseñan" },
+            "preterito_perfecto": { "yo": "he enseñado", "tú": "has enseñado", "él/ella/usted": "ha enseñado", "nosotros": "hemos enseñado", "vosotros": "habéis enseñado", "ellos/ellas/ustedes": "han enseñado" },
+            "preterito_imperfecto": { "yo": "enseñaba", "tú": "enseñabas", "él/ella/usted": "enseñaba", "nosotros": "enseñábamos", "vosotros": "enseñabais", "ellos/ellas/ustedes": "enseñaban" },
+            "preterito_indefinido": { "yo": "enseñé", "tú": "enseñaste", "él/ella/usted": "enseñó", "nosotros": "enseñamos", "vosotros": "enseñasteis", "ellos/ellas/ustedes": "enseñaron" },
+            "futuro_simple": { "yo": "enseñaré", "tú": "enseñarás", "él/ella/usted": "enseñará", "nosotros": "enseñaremos", "vosotros": "enseñaréis", "ellos/ellas/ustedes": "enseñarán" }
+        }
+    },
+    {
+        "infinitive": "intentar",
+        "translation": "essayer",
+        "conjugations": {
+            "presente": { "yo": "intento", "tú": "intentas", "él/ella/usted": "intenta", "nosotros": "intentamos", "vosotros": "intentáis", "ellos/ellas/ustedes": "intentan" },
+            "preterito_perfecto": { "yo": "he intentado", "tú": "has intentado", "él/ella/usted": "ha intentado", "nosotros": "hemos intentado", "vosotros": "habéis intentado", "ellos/ellas/ustedes": "han intentado" },
+            "preterito_imperfecto": { "yo": "intentaba", "tú": "intentabas", "él/ella/usted": "intentaba", "nosotros": "intentábamos", "vosotros": "intentabais", "ellos/ellas/ustedes": "intentaban" },
+            "preterito_indefinido": { "yo": "intenté", "tú": "intentaste", "él/ella/usted": "intentó", "nosotros": "intentamos", "vosotros": "intentasteis", "ellos/ellas/ustedes": "intentaron" },
+            "futuro_simple": { "yo": "intentaré", "tú": "intentarás", "él/ella/usted": "intentará", "nosotros": "intentaremos", "vosotros": "intentaréis", "ellos/ellas/ustedes": "intentarán" }
+        }
+    },
+    {
+        "infinitive": "olvidar",
+        "translation": "oublier",
+        "conjugations": {
+            "presente": { "yo": "olvido", "tú": "olvidas", "él/ella/usted": "olvida", "nosotros": "olvidamos", "vosotros": "olvidáis", "ellos/ellas/ustedes": "olvidan" },
+            "preterito_perfecto": { "yo": "he olvidado", "tú": "has olvidado", "él/ella/usted": "ha olvidado", "nosotros": "hemos olvidado", "vosotros": "habéis olvidado", "ellos/ellas/ustedes": "han olvidado" },
+            "preterito_imperfecto": { "yo": "olvidaba", "tú": "olvidabas", "él/ella/usted": "olvidaba", "nosotros": "olvidábamos", "vosotros": "olvidabais", "ellos/ellas/ustedes": "olvidaban" },
+            "preterito_indefinido": { "yo": "olvidé", "tú": "olvidaste", "él/ella/usted": "olvidó", "nosotros": "olvidamos", "vosotros": "olvidasteis", "ellos/ellas/ustedes": "olvidaron" },
+            "futuro_simple": { "yo": "olvidaré", "tú": "olvidarás", "él/ella/usted": "olvidará", "nosotros": "olvidaremos", "vosotros": "olvidaréis", "ellos/ellas/ustedes": "olvidarán" }
+        }
+    },
+    {
+        "infinitive": "seguir",
+        "translation": "suivre",
+        "conjugations": {
+            "presente": { "yo": "sigo", "tú": "sigues", "él/ella/usted": "sigue", "nosotros": "seguimos", "vosotros": "seguís", "ellos/ellas/ustedes": "siguen" },
+            "preterito_perfecto": { "yo": "he seguido", "tú": "has seguido", "él/ella/usted": "ha seguido", "nosotros": "hemos seguido", "vosotros": "habéis seguido", "ellos/ellas/ustedes": "han seguido" },
+            "preterito_imperfecto": { "yo": "seguía", "tú": "seguías", "él/ella/usted": "seguía", "nosotros": "seguíamos", "vosotros": "seguíais", "ellos/ellas/ustedes": "seguían" },
+            "preterito_indefinido": { "yo": "seguí", "tú": "seguiste", "él/ella/usted": "siguió", "nosotros": "seguimos", "vosotros": "seguisteis", "ellos/ellas/ustedes": "siguieron" },
+            "futuro_simple": { "yo": "seguiré", "tú": "seguirás", "él/ella/usted": "seguirá", "nosotros": "seguiremos", "vosotros": "seguiréis", "ellos/ellas/ustedes": "seguirán" }
+        }
+    },
+    {
+        "infinitive": "creer",
+        "translation": "croire",
+        "conjugations": {
+            "presente": { "yo": "creo", "tú": "crees", "él/ella/usted": "cree", "nosotros": "creemos", "vosotros": "creéis", "ellos/ellas/ustedes": "creen" },
+            "preterito_perfecto": { "yo": "he creído", "tú": "has creído", "él/ella/usted": "ha creído", "nosotros": "hemos creído", "vosotros": "habéis creído", "ellos/ellas/ustedes": "han creído" },
+            "preterito_imperfecto": { "yo": "creía", "tú": "creías", "él/ella/usted": "creía", "nosotros": "creíamos", "vosotros": "creíais", "ellos/ellas/ustedes": "creían" },
+            "preterito_indefinido": { "yo": "creí", "tú": "creíste", "él/ella/usted": "creyó", "nosotros": "creímos", "vosotros": "creísteis", "ellos/ellas/ustedes": "creyeron" },
+            "futuro_simple": { "yo": "creeré", "tú": "creerás", "él/ella/usted": "creerá", "nosotros": "creeremos", "vosotros": "creeréis", "ellos/ellas/ustedes": "creerán" }
+        }
+    },
+    {
+        "infinitive": "crear",
+        "translation": "créer",
+        "conjugations": {
+            "presente": { "yo": "creo", "tú": "creas", "él/ella/usted": "crea", "nosotros": "creamos", "vosotros": "creáis", "ellos/ellas/ustedes": "crean" },
+            "preterito_perfecto": { "yo": "he creado", "tú": "has creado", "él/ella/usted": "ha creado", "nosotros": "hemos creado", "vosotros": "habéis creado", "ellos/ellas/ustedes": "han creado" },
+            "preterito_imperfecto": { "yo": "creaba", "tú": "creabas", "él/ella/usted": "creaba", "nosotros": "creábamos", "vosotros": "creabais", "ellos/ellas/ustedes": "creaban" },
+            "preterito_indefinido": { "yo": "creé", "tú": "creaste", "él/ella/usted": "creó", "nosotros": "creamos", "vosotros": "creasteis", "ellos/ellas/ustedes": "crearon" },
+            "futuro_simple": { "yo": "crearé", "tú": "crearás", "él/ella/usted": "creará", "nosotros": "crearemos", "vosotros": "crearéis", "ellos/ellas/ustedes": "crearán" }
+        }
+    },
+    {
+        "infinitive": "esperar",
+        "translation": "attendre / espérer",
+        "conjugations": {
+            "presente": { "yo": "espero", "tú": "esperas", "él/ella/usted": "espera", "nosotros": "esperamos", "vosotros": "esperáis", "ellos/ellas/ustedes": "esperan" },
+            "preterito_perfecto": { "yo": "he esperado", "tú": "has esperado", "él/ella/usted": "ha esperado", "nosotros": "hemos esperado", "vosotros": "habéis esperado", "ellos/ellas/ustedes": "han esperado" },
+            "preterito_imperfecto": { "yo": "esperaba", "tú": "esperabas", "él/ella/usted": "esperaba", "nosotros": "esperábamos", "vosotros": "esperabais", "ellos/ellas/ustedes": "esperaban" },
+            "preterito_indefinido": { "yo": "esperé", "tú": "esperaste", "él/ella/usted": "esperó", "nosotros": "esperamos", "vosotros": "esperasteis", "ellos/ellas/ustedes": "esperaron" },
+            "futuro_simple": { "yo": "esperaré", "tú": "esperarás", "él/ella/usted": "esperará", "nosotros": "esperaremos", "vosotros": "esperaréis", "ellos/ellas/ustedes": "esperarán" }
+        }
+    },
+    {
+        "infinitive": "saber",
+        "translation": "savoir",
+        "conjugations": {
+            "presente": { "yo": "sé", "tú": "sabes", "él/ella/usted": "sabe", "nosotros": "sabemos", "vosotros": "sabéis", "ellos/ellas/ustedes": "saben" },
+            "preterito_perfecto": { "yo": "he sabido", "tú": "has sabido", "él/ella/usted": "ha sabido", "nosotros": "hemos sabido", "vosotros": "habéis sabido", "ellos/ellas/ustedes": "han sabido" },
+            "preterito_imperfecto": { "yo": "sabía", "tú": "sabías", "él/ella/usted": "sabía", "nosotros": "sabíamos", "vosotros": "sabíais", "ellos/ellas/ustedes": "sabían" },
+            "preterito_indefinido": { "yo": "supe", "tú": "supiste", "él/ella/usted": "supo", "nosotros": "supimos", "vosotros": "supisteis", "ellos/ellas/ustedes": "supieron" },
+            "futuro_simple": { "yo": "sabré", "tú": "sabrás", "él/ella/usted": "sabrá", "nosotros": "sabremos", "vosotros": "sabréis", "ellos/ellas/ustedes": "sabrán" }
+        }
+    },
+    {
+        "infinitive": "pensar",
+        "translation": "penser",
+        "conjugations": {
+            "presente": { "yo": "pienso", "tú": "piensas", "él/ella/usted": "piensa", "nosotros": "pensamos", "vosotros": "pensáis", "ellos/ellas/ustedes": "piensan" },
+            "preterito_perfecto": { "yo": "he pensado", "tú": "has pensado", "él/ella/usted": "ha pensado", "nosotros": "hemos pensado", "vosotros": "habéis pensado", "ellos/ellas/ustedes": "han pensado" },
+            "preterito_imperfecto": { "yo": "pensaba", "tú": "pensabas", "él/ella/usted": "pensaba", "nosotros": "pensábamos", "vosotros": "pensabais", "ellos/ellas/ustedes": "pensaban" },
+            "preterito_indefinido": { "yo": "pensé", "tú": "pensaste", "él/ella/usted": "pensó", "nosotros": "pensamos", "vosotros": "pensasteis", "ellos/ellas/ustedes": "pensaron" },
+            "futuro_simple": { "yo": "pensaré", "tú": "pensarás", "él/ella/usted": "pensará", "nosotros": "pensaremos", "vosotros": "pensaréis", "ellos/ellas/ustedes": "pensarán" }
+        }
+    },
+    {
+        "infinitive": "necesitar",
+        "translation": "avoir besoin",
+        "conjugations": {
+            "presente": { "yo": "necesito", "tú": "necesitas", "él/ella/usted": "necesita", "nosotros": "necesitamos", "vosotros": "necesitáis", "ellos/ellas/ustedes": "necesitan" },
+            "preterito_perfecto": { "yo": "he necesitado", "tú": "has necesitado", "él/ella/usted": "ha necesitado", "nosotros": "hemos necesitado", "vosotros": "habéis necesitado", "ellos/ellas/ustedes": "han necesitado" },
+            "preterito_imperfecto": { "yo": "necesitaba", "tú": "necesitabas", "él/ella/usted": "necesitaba", "nosotros": "necesitábamos", "vosotros": "necesitabais", "ellos/ellas/ustedes": "necesitaban" },
+            "preterito_indefinido": { "yo": "necesité", "tú": "necesitaste", "él/ella/usted": "necesitó", "nosotros": "necesitamos", "vosotros": "necesitasteis", "ellos/ellas/ustedes": "necesitaron" },
+            "futuro_simple": { "yo": "necesitaré", "tú": "necesitarás", "él/ella/usted": "necesitará", "nosotros": "necesitaremos", "vosotros": "necesitaréis", "ellos/ellas/ustedes": "necesitarán" }
+        }
+    }
 ];
