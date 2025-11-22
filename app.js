@@ -13,10 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const conjugationTable = document.getElementById('conjugation-table');
     const keyboardButtons = document.querySelectorAll('.key-btn');
     const tenseSelect = document.getElementById('tense-select');
+    const verbSelect = document.getElementById('verb-select');
 
     // State
     let currentQuestion = null;
     let currentTenseFilter = 'all';
+    let currentVerbFilter = 'all';
 
     // Constants
     const PERSONS = ['yo', 'tú', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'];
@@ -48,8 +50,21 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error("Verbs data not loaded.");
             return;
         }
+        populateVerbSelect();
         setupEventListeners();
         generateQuestion();
+    }
+
+    function populateVerbSelect() {
+        // Sort verbs alphabetically by infinitive
+        const sortedVerbs = [...verbs].sort((a, b) => a.infinitive.localeCompare(b.infinitive));
+
+        sortedVerbs.forEach(verb => {
+            const option = document.createElement('option');
+            option.value = verb.infinitive;
+            option.textContent = verb.infinitive;
+            verbSelect.appendChild(option);
+        });
     }
 
     function setupEventListeners() {
@@ -80,22 +95,35 @@ document.addEventListener('DOMContentLoaded', () => {
             resetUI();
             generateQuestion();
         });
+
+        // Verb Selector
+        verbSelect.addEventListener('change', (e) => {
+            currentVerbFilter = e.target.value;
+            resetUI();
+            generateQuestion();
+        });
     }
 
     function generateQuestion() {
         if (verbs.length === 0) return;
 
-        const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+        let filteredVerbs = verbs;
+
+        // Filter by verb if a specific verb is selected
+        if (currentVerbFilter !== 'all') {
+            filteredVerbs = verbs.filter(v => v.infinitive === currentVerbFilter);
+        }
+
+        if (filteredVerbs.length === 0) return;
+
+        const randomVerb = filteredVerbs[Math.floor(Math.random() * filteredVerbs.length)];
 
         // Filter tenses based on selection
         let availableTenses = Object.keys(randomVerb.conjugations);
         if (currentTenseFilter !== 'all') {
-            // Check if the verb has the selected tense (it should, but good to be safe)
             if (availableTenses.includes(currentTenseFilter)) {
                 availableTenses = [currentTenseFilter];
             } else {
-                // Fallback if for some reason the verb doesn't have the tense
-                // In this dataset, all verbs have all 5 tenses.
                 availableTenses = Object.keys(randomVerb.conjugations);
             }
         }

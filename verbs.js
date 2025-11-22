@@ -309,5 +309,61 @@ const verbsData = [
             "preterito_indefinido": { "yo": "morí", "tú": "moriste", "él/ella/usted": "murió", "nosotros": "morimos", "vosotros": "moristeis", "ellos/ellas/ustedes": "murieron" },
             "futuro_simple": { "yo": "moriré", "tú": "morirás", "él/ella/usted": "morirá", "nosotros": "moriremos", "vosotros": "moriréis", "ellos/ellas/ustedes": "morirán" }
         }
+    },
+    // --- Reflexive Verbs ---
+    {
+        "infinitive": "levantarse",
+        "translation": "se lever",
+        "conjugations": {
+            "presente": { "yo": "me levanto", "tú": "te levantas", "él/ella/usted": "se levanta", "nosotros": "nos levantamos", "vosotros": "os levantáis", "ellos/ellas/ustedes": "se levantan" },
+            "preterito_perfecto": { "yo": "me he levantado", "tú": "te has levantado", "él/ella/usted": "se ha levantado", "nosotros": "nos hemos levantado", "vosotros": "os habéis levantado", "ellos/ellas/ustedes": "se han levantado" },
+            "preterito_imperfecto": { "yo": "me levantaba", "tú": "te levantabas", "él/ella/usted": "se levantaba", "nosotros": "nos levantábamos", "vosotros": "os levantabais", "ellos/ellas/ustedes": "se levantaban" },
+            "preterito_indefinido": { "yo": "me levanté", "tú": "te levantaste", "él/ella/usted": "se levantó", "nosotros": "nos levantamos", "vosotros": "os levantasteis", "ellos/ellas/ustedes": "se levantaron" },
+            "futuro_simple": { "yo": "me levantaré", "tú": "te levantarás", "él/ella/usted": "se levantará", "nosotros": "nos levantaremos", "vosotros": "os levantaréis", "ellos/ellas/ustedes": "se levantarán" }
+        }
+    },
+    {
+        "infinitive": "ducharse",
+        "translation": "se doucher",
+        "conjugations": {
+            "presente": { "yo": "me ducho", "tú": "te duchas", "él/ella/usted": "se ducha", "nosotros": "nos duchamos", "vosotros": "os ducháis", "ellos/ellas/ustedes": "se duchan" },
+            "preterito_perfecto": { "yo": "me he duchado", "tú": "te has duchado", "él/ella/usted": "se ha duchado", "nosotros": "nos hemos duchado", "vosotros": "os habéis duchado", "ellos/ellas/ustedes": "se han duchado" },
+            "preterito_imperfecto": { "yo": "me duchaba", "tú": "te duchabas", "él/ella/usted": "se duchaba", "nosotros": "nos duchábamos", "vosotros": "os duchabais", "ellos/ellas/ustedes": "se duchaban" },
+            "preterito_indefinido": { "yo": "me duché", "tú": "te duchaste", "él/ella/usted": "se duchó", "nosotros": "nos duchamos", "vosotros": "os duchasteis", "ellos/ellas/ustedes": "se ducharon" },
+            "futuro_simple": { "yo": "me ducharé", "tú": "te ducharás", "él/ella/usted": "se duchará", "nosotros": "nos ducharemos", "vosotros": "os ducharéis", "ellos/ellas/ustedes": "se ducharán" }
+        }
+    },
+    {
+        "infinitive": "lavarse",
+        "translation": "se laver",
+        "conjugations": {
+            "presente": { "yo": "me lavo", "tú": "te lavas", "él/ella/usted": "se lava", "nosotros": "nos lavamos", "vosotros": "os laváis", "ellos/ellas/ustedes": "se lavan" },
+            "preterito_perfecto": { "yo": "me he lavado", "tú": "te has lavado", "él/ella/usted": "se ha lavado", "nosotros": "nos hemos lavado", "vosotros": "os habéis lavado", "ellos/ellas/ustedes": "se han lavado" },
+            "preterito_imperfecto": { "yo": "me lavaba", "tú": "te lavabas", "él/ella/usted": "se lavaba", "nosotros": "nos lavábamos", "vosotros": "os lavabais", "ellos/ellas/ustedes": "se lavaban" },
+            "preterito_indefinido": { "yo": "me lavé", "tú": "te lavaste", "él/ella/usted": "se lavó", "nosotros": "nos lavamos", "vosotros": "os lavasteis", "ellos/ellas/ustedes": "se lavaron" },
+            "futuro_simple": { "yo": "me lavaré", "tú": "te lavarás", "él/ella/usted": "se lavará", "nosotros": "nos lavaremos", "vosotros": "os lavaréis", "ellos/ellas/ustedes": "se lavarán" }
+        }
+    },
+    {
+        "infinitive": "llamarse",
+        "translation": "s'appeler",
+        "conjugations": {
+            "presente": { "yo": "me llamo", "tú": "te llamas", "él/ella/usted": "se llama", "nosotros": "nos llamamos", "vosotros": "os llamáis", "ellos/ellas/ustedes": "se llaman" },
+            "preterito_perfecto": { "yo": "me he llamado", "tú": "te has llamado", "él/ella/usted": "se ha llamado", "nosotros": "nos hemos llamado", "vosotros": "os habéis llamado", "ellos/ellas/ustedes": "se han llamado" },
+            "preterito_imperfecto": { "yo": "me llamaba", "tú": "te llamabas", "él/ella/usted": "se llamaba", "nosotros": "nos llamábamos", "vosotros": "os llamabais", "ellos/ellas/ustedes": "se llamaban" },
+            "preterito_indefinido": { "yo": "me llamé", "tú": "te llamaste", "él/ella/usted": "se llamó", "nosotros": "nos llamamos", "vosotros": "os llamasteis", "ellos/ellas/ustedes": "se llamaron" },
+            "futuro_simple": { "yo": "me llamaré", "tú": "te llamarás", "él/ella/usted": "se llamará", "nosotros": "nos llamaremos", "vosotros": "os llamaréis", "ellos/ellas/ustedes": "se llamarán" }
+        }
+    },
+    {
+        "infinitive": "irse",
+        "translation": "s'en aller",
+        "conjugations": {
+            "presente": { "yo": "me voy", "tú": "te vas", "él/ella/usted": "se va", "nosotros": "nos vamos", "vosotros": "os vais", "ellos/ellas/ustedes": "se van" },
+            "preterito_perfecto": { "yo": "me he ido", "tú": "te has ido", "él/ella/usted": "se ha ido", "nosotros": "nos hemos ido", "vosotros": "os habéis ido", "ellos/ellas/ustedes": "se han ido" },
+            "preterito_imperfecto": { "yo": "me iba", "tú": "te ibas", "él/ella/usted": "se iba", "nosotros": "nos íbamos", "vosotros": "os ibais", "ellos/ellas/ustedes": "se iban" },
+            "preterito_indefinido": { "yo": "me fui", "tú": "te fuiste", "él/ella/usted": "se fue", "nosotros": "nos fuimos", "vosotros": "os fuisteis", "ellos/ellas/ustedes": "se fueron" },
+            "futuro_simple": { "yo": "me iré", "tú": "te irás", "él/ella/usted": "se irá", "nosotros": "nos iremos", "vosotros": "os iréis", "ellos/ellas/ustedes": "se irán" }
+        }
     }
 ];
