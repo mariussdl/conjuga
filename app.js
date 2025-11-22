@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const personDisplay = document.getElementById('person-display');
     const answerInput = document.getElementById('answer-input');
     const submitBtn = document.getElementById('submit-btn');
-    const nextBtn = document.getElementById('next-btn');
+    const nextBtn = document.getElementById('next-btn'); // Will be removed from HTML, but keeping ref for now to avoid errors if not removed yet
     const feedbackArea = document.getElementById('feedback-area');
     const resultMessage = document.getElementById('result-message');
     const correctionContainer = document.getElementById('correction-container');
@@ -14,11 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const keyboardButtons = document.querySelectorAll('.key-btn');
     const tenseSelect = document.getElementById('tense-select');
     const verbSelect = document.getElementById('verb-select');
+    const questionCard = document.getElementById('question-card');
 
     // State
     let currentQuestion = null;
     let currentTenseFilter = 'all';
     let currentVerbFilter = 'all';
+    let isQuestionActive = true; // Track if we are waiting for answer or next question
 
     // Constants
     const PERSONS = ['yo', 'tú', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'];
@@ -68,21 +70,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupEventListeners() {
-        // Submit answer
-        submitBtn.addEventListener('click', checkAnswer);
-        answerInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') checkAnswer();
-        });
+        // Submit / Next button
+        submitBtn.addEventListener('click', handleMainButtonClick);
 
-        // Next question
-        nextBtn.addEventListener('click', () => {
-            resetUI();
-            generateQuestion();
+        answerInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleMainButtonClick();
         });
 
         // Virtual Keyboard
         keyboardButtons.forEach(btn => {
             btn.addEventListener('click', () => {
+                if (!isQuestionActive) return; // Disable keyboard when showing result
                 const char = btn.getAttribute('data-char');
                 insertAtCursor(answerInput, char);
                 answerInput.focus();
@@ -102,6 +100,15 @@ document.addEventListener('DOMContentLoaded', () => {
             resetUI();
             generateQuestion();
         });
+    }
+
+    function handleMainButtonClick() {
+        if (isQuestionActive) {
+            checkAnswer();
+        } else {
+            resetUI();
+            generateQuestion();
+        }
     }
 
     function generateQuestion() {
@@ -167,23 +174,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResult(isCorrect, correctAnswer) {
+        isQuestionActive = false;
         feedbackArea.classList.remove('hidden');
-        submitBtn.disabled = true;
         answerInput.disabled = true;
+
+        // Change button to "Nouvelle question"
+        submitBtn.textContent = "Nouvelle question";
+        submitBtn.classList.add('btn-next'); // Optional styling hook
 
         if (isCorrect) {
             resultMessage.textContent = "Correct ! Bravo 🎉";
             resultMessage.className = "result-message success";
+            questionCard.classList.add('success');
             correctionContainer.classList.add('hidden');
         } else {
             resultMessage.textContent = `Incorrect. La bonne réponse était : ${correctAnswer}`;
             resultMessage.className = "result-message error";
+            questionCard.classList.add('error');
             renderConjugationTable();
             correctionContainer.classList.remove('hidden');
         }
 
-        nextBtn.classList.remove('hidden');
-        nextBtn.focus();
+        submitBtn.focus();
     }
 
     function renderConjugationTable() {
@@ -212,13 +224,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetUI() {
+        isQuestionActive = true;
         feedbackArea.classList.add('hidden');
-        nextBtn.classList.add('hidden');
         correctionContainer.classList.add('hidden');
+
+        // Reset card styles
+        questionCard.classList.remove('success', 'error');
+
+        // Reset button
+        submitBtn.textContent = "Valider";
+        submitBtn.classList.remove('btn-next');
+        submitBtn.disabled = false;
 
         answerInput.value = '';
         answerInput.disabled = false;
-        submitBtn.disabled = false;
 
         resultMessage.textContent = '';
         resultMessage.className = 'result-message';
