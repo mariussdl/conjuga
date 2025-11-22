@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratique Conjugaison Espagnole</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>🇪🇸 Conjugaison Espagnole</h1>
+            <p>Entraînez-vous à conjuguer les verbes espagnols</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <select id="tense-select" class="tense-select">
+                    <option value="all">Tous les temps</option>
+                    <option value="presente">Présent</option>
+                    <option value="preterito_perfecto">Passé composé</option>
+                    <option value="preterito_imperfecto">Imparfait</option>
+                    <option value="preterito_indefinido">Passé simple</option>
+                    <option value="futuro_simple">Futur simple</option>
+                </select>
+            </div>
+
+            <div id="question-card" class="card">
+                <div class="question-header">
+                    <span id="verb-label" class="verb-label">Verbe</span>
+                    <h2 id="verb-display">...</h2>
+                    <p id="translation-display" class="translation">...</p>
+                </div>
+
+                <div class="question-body">
+                    <div class="info-row">
+                        <div class="info-item">
+                            <span class="label">Temps</span>
+                            <span id="tense-display" class="value">...</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Personne</span>
+                            <span id="person-display" class="value">...</span>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="answer-input" placeholder="Votre réponse..." autocomplete="off"
+                            spellcheck="false">
+                        <button id="submit-btn" class="btn-primary">Valider</button>
+                    </div>
+
+                    <div class="virtual-keyboard">
+                        <button class="key-btn" data-char="á">á</button>
+                        <button class="key-btn" data-char="é">é</button>
+                        <button class="key-btn" data-char="í">í</button>
+                        <button class="key-btn" data-char="ó">ó</button>
+                        <button class="key-btn" data-char="ú">ú</button>
+                        <button class="key-btn" data-char="ü">ü</button>
+                        <button class="key-btn" data-char="ñ">ñ</button>
+                        <button class="key-btn" data-char="¡">¡</button>
+                        <button class="key-btn" data-char="¿">¿</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="feedback-area" class="feedback-area hidden">
+                <div id="result-message" class="result-message"></div>
+
+                <div id="correction-container" class="correction-container hidden">
+                    <h3>Table de conjugaison</h3>
+                    <div id="conjugation-table" class="conjugation-table">
+                        <!-- Table content will be injected here -->
+                    </div>
+                </div>
+
+                <button id="next-btn" class="btn-secondary hidden">Nouvelle question</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Bonne chance ! ¡Buena suerte!</p>
+        </footer>
+    </div>
+
+    <script src="verbs.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
